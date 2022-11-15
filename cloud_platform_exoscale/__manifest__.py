@@ -12,12 +12,12 @@
     "depends": [
         "cloud_platform",
         "attachment_s3",
-        "monitoring_statsd",
+        # "monitoring_statsd",
     ],
     "excludes": [
         "cloud_platform_ovh",
     ],
     "website": "https://www.camptocamp.com",
     "data": [],
-    "installable": False,
+    "installable": True,
 }
